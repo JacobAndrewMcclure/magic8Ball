@@ -1,0 +1,46 @@
+body {
+    background-image: linear-gradient(to right, #403075, #882d61);
+}
+h2 {
+    text-align: center;
+    color: white;
+    border: gray;
+    font-size: 40px;
+    font-family: "Aladin", sans-serif;
+}
+p {
+    font-family: "Roboto", sans-serif;
+}
+#ballCont {
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    margin: auto;
+    border: solid #661141;
+}
+#MessageCont {
+    height: 200px;
+    width: 200px;
+    background-color: #3d1255;
+    border-radius: 50%;
+    position: absolute;
+    margin: auto;
+    left: 30%;
+    top: 30%;
+    border: solid gray;
+}
+#ballMess {
+    text-align: center;
+    color: white;
+    margin-top: 40%;
+}
+#buttonContainer {
+    display: flex;
+    justify-content: center;
+}
+#messageButton {
+    width: 100px;
+    height: 30px;
+}
